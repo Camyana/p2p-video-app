@@ -8,6 +8,7 @@ on:
 jobs:
   release:
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
     
     strategy:
       matrix:
@@ -29,11 +30,16 @@ jobs:
     - name: Build application
       run: npm run build
       
-    - name: Build and release
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: npm run publish
+    - name: Build distributables
+      run: npm run dist
       
+    - name: Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: release/*
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       if: always()
