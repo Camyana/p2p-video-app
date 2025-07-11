@@ -728,10 +728,10 @@ const VideoCallApp = () => {
             }
             console.log('📨 ANSWERER: Setting remote description (offer)');
             await peerConnection.setRemoteDescription(offer);
-            // Process any queued ICE candidates after a short delay
+            // Process any queued ICE candidates after remote description is set
             setTimeout(async () => {
                 await processQueuedIceCandidates();
-            }, 100);
+            }, 500); // Increased delay to ensure remote description is fully processed
             console.log('📨 ANSWERER: Creating answer');
             const answer = await peerConnection.createAnswer();
             console.log('📨 ANSWERER: Answer SDP includes media:', {
@@ -773,10 +773,10 @@ const VideoCallApp = () => {
             }
             console.log('📨 CALLER: Setting remote description (answer)');
             await peerConnection.setRemoteDescription(answer);
-            // Process any queued ICE candidates after a short delay
+            // Process any queued ICE candidates after remote description is set
             setTimeout(async () => {
                 await processQueuedIceCandidates();
-            }, 100);
+            }, 500); // Increased delay to ensure remote description is fully processed
             console.log('✅ CALLER: Remote description set successfully');
         }
         catch (error) {
@@ -788,12 +788,6 @@ const VideoCallApp = () => {
         try {
             console.log('🧊 Processing ICE candidate for room:', roomId);
             console.log('🧊 Current room ID:', currentRoomId);
-            console.log('🧊 Candidate details:', {
-                candidate: candidate.candidate,
-                sdpMLineIndex: candidate.sdpMLineIndex,
-                sdpMid: candidate.sdpMid,
-                usernameFragment: candidate.usernameFragment
-            });
             const peerConnection = peerConnectionRef.current;
             if (!peerConnection) {
                 console.error('🧊 No peer connection available for ICE candidate');
@@ -804,9 +798,36 @@ const VideoCallApp = () => {
                 console.warn('🧊 ICE candidate for different room, ignoring');
                 return;
             }
-            // Check connection state
-            console.log('🧊 Connection state:', peerConnection.connectionState);
+            // Validate candidate structure first
+            if (!candidate || typeof candidate !== 'object') {
+                console.warn('🧊 Invalid candidate object, skipping');
+                return;
+            }
+            // Check for end-of-candidates marker (null candidate)
+            if (!candidate.candidate || candidate.candidate.trim() === '') {
+                console.log('🧊 End-of-candidates marker or empty candidate, skipping');
+                return;
+            }
+            // Additional validation for candidate format
+            if (typeof candidate.candidate !== 'string' ||
+                !candidate.candidate.includes('candidate:')) {
+                console.warn('🧊 Invalid candidate format, skipping:', candidate.candidate);
+                return;
+            }
+            // Check connection state - use string comparison for better compatibility
+            const connectionState = peerConnection.connectionState;
+            if (connectionState === 'closed' || connectionState === 'failed') {
+                console.warn('🧊 Connection is closed/failed, not adding ICE candidate');
+                return;
+            }
+            // Check signaling state
+            if (peerConnection.signalingState === 'closed') {
+                console.warn('🧊 Signaling state is closed, not adding ICE candidate');
+                return;
+            }
+            console.log('🧊 Connection state:', connectionState);
             console.log('🧊 ICE connection state:', peerConnection.iceConnectionState);
+            console.log('🧊 Signaling state:', peerConnection.signalingState);
             console.log('🧊 Remote description set:', !!peerConnection.remoteDescription);
             console.log('🧊 Local description set:', !!peerConnection.localDescription);
             // Check if remote description is set
@@ -815,23 +836,35 @@ const VideoCallApp = () => {
                 iceCandidatesQueue.current.push(candidate);
                 return;
             }
-            // Validate candidate before adding
-            if (!candidate.candidate || candidate.candidate.trim() === '') {
-                console.log('🧊 Empty or invalid candidate, skipping');
-                return;
-            }
-            // Check if connection is closed
-            if (peerConnection.connectionState === 'closed') {
-                console.warn('🧊 Connection is closed, not adding ICE candidate');
-                return;
-            }
+            console.log('🧊 Candidate details:', {
+                candidate: candidate.candidate.substring(0, 50) + '...',
+                sdpMLineIndex: candidate.sdpMLineIndex,
+                sdpMid: candidate.sdpMid,
+                usernameFragment: candidate.usernameFragment
+            });
             console.log('🧊 Adding ICE candidate to peer connection');
-            await peerConnection.addIceCandidate(candidate);
+            // Create a proper RTCIceCandidate object
+            const iceCandidate = new RTCIceCandidate({
+                candidate: candidate.candidate,
+                sdpMLineIndex: candidate.sdpMLineIndex,
+                sdpMid: candidate.sdpMid,
+                usernameFragment: candidate.usernameFragment
+            });
+            await peerConnection.addIceCandidate(iceCandidate);
             console.log('✅ ICE candidate added successfully');
         }
         catch (error) {
             console.error('❌ Error handling ICE candidate:', error);
-            console.error('❌ Candidate that failed:', candidate);
+            console.error('❌ Candidate that failed:', {
+                candidate: candidate?.candidate?.substring(0, 100) + '...' || 'undefined',
+                sdpMLineIndex: candidate?.sdpMLineIndex,
+                sdpMid: candidate?.sdpMid,
+                usernameFragment: candidate?.usernameFragment
+            });
+            // Log specific error types for debugging
+            if (error instanceof DOMException) {
+                console.error('❌ DOM Exception:', error.name, error.message);
+            }
             // Don't throw the error, just log it to prevent breaking the call
             // Some ICE candidates might fail but the connection can still work
         }
@@ -849,26 +882,53 @@ const VideoCallApp = () => {
         for (const candidate of candidates) {
             try {
                 // Validate candidate
+                if (!candidate || typeof candidate !== 'object') {
+                    console.log('🧊 Skipping invalid queued candidate object');
+                    continue;
+                }
                 if (!candidate.candidate || candidate.candidate.trim() === '') {
                     console.log('🧊 Skipping empty queued candidate');
                     continue;
                 }
-                // Check if connection is still valid
-                if (peerConnection.connectionState === 'closed') {
-                    console.warn('🧊 Connection closed, stopping candidate processing');
+                // Additional validation for candidate format
+                if (typeof candidate.candidate !== 'string' ||
+                    !candidate.candidate.includes('candidate:')) {
+                    console.warn('🧊 Invalid queued candidate format, skipping:', candidate.candidate);
+                    continue;
+                }
+                // Check if connection is still valid using string comparison
+                const connectionState = peerConnection.connectionState;
+                if (connectionState === 'closed' || connectionState === 'failed') {
+                    console.warn('🧊 Connection closed/failed during candidate processing, stopping');
                     break;
                 }
                 console.log('🧊 Processing queued candidate:', {
                     candidate: candidate.candidate.substring(0, 50) + '...',
-                    sdpMLineIndex: candidate.sdpMLineIndex
+                    sdpMLineIndex: candidate.sdpMLineIndex,
+                    sdpMid: candidate.sdpMid
                 });
-                await peerConnection.addIceCandidate(candidate);
+                // Create a proper RTCIceCandidate object
+                const iceCandidate = new RTCIceCandidate({
+                    candidate: candidate.candidate,
+                    sdpMLineIndex: candidate.sdpMLineIndex,
+                    sdpMid: candidate.sdpMid,
+                    usernameFragment: candidate.usernameFragment
+                });
+                await peerConnection.addIceCandidate(iceCandidate);
                 console.log('✅ Queued ICE candidate added successfully');
             }
             catch (error) {
                 console.error('❌ Error adding queued ICE candidate:', error);
-                console.error('❌ Failed candidate:', candidate);
-                // Continue processing other candidates
+                console.error('❌ Failed candidate:', {
+                    candidate: candidate?.candidate?.substring(0, 100) + '...' || 'undefined',
+                    sdpMLineIndex: candidate?.sdpMLineIndex,
+                    sdpMid: candidate?.sdpMid
+                });
+                // Log specific error types for debugging
+                if (error instanceof DOMException) {
+                    console.error('❌ DOM Exception:', error.name, error.message);
+                }
+                // Continue processing other candidates even if one fails
             }
         }
         console.log('🧊 Finished processing queued ICE candidates');
