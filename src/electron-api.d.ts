@@ -5,6 +5,8 @@ declare global {
       startSignalingServer: () => Promise<{ success: boolean; error?: string }>;
       stopSignalingServer: () => Promise<{ success: boolean; error?: string }>;
       isSignalingServerRunning: () => Promise<boolean>;
+      checkForUpdates: () => Promise<{ success: boolean; result?: any; error?: string }>;
+      getAppVersion: () => Promise<string>;
     };
   }
 }

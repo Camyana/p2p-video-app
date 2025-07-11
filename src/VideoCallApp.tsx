@@ -78,6 +78,11 @@ const VideoCallApp: React.FC<VideoCallAppProps> = () => {
   const socketRef = useRef<Socket | null>(null); // Add ref for socket to avoid timing issues
   const iceCandidatesQueue = useRef<RTCIceCandidateInit[]>([]); // Queue for ICE candidates
   
+  // Update state
+  const [appVersion, setAppVersion] = useState('');
+  const [isCheckingForUpdates, setIsCheckingForUpdates] = useState(false);
+  const [updateStatus, setUpdateStatus] = useState('');
+  
   // WebRTC configuration
   const configuration: RTCConfiguration = {
     iceServers: [
@@ -1159,6 +1164,43 @@ const VideoCallApp: React.FC<VideoCallAppProps> = () => {
     };
   }, []); // Empty dependency array - only run on mount/unmount
 
+  // Update functions
+  useEffect(() => {
+    // Get app version on component mount
+    const getAppVersion = async () => {
+      try {
+        const version = await window.electronAPI.getAppVersion();
+        setAppVersion(version);
+      } catch (error) {
+        console.error('Error getting app version:', error);
+      }
+    };
+    
+    getAppVersion();
+  }, []);
+
+  const checkForUpdates = async () => {
+    setIsCheckingForUpdates(true);
+    setUpdateStatus('Checking for updates...');
+    
+    try {
+      const result = await window.electronAPI.checkForUpdates();
+      if (result.success) {
+        setUpdateStatus('Update check completed');
+        setTimeout(() => setUpdateStatus(''), 3000);
+      } else {
+        setUpdateStatus(`Update check failed: ${result.error}`);
+        setTimeout(() => setUpdateStatus(''), 5000);
+      }
+    } catch (error) {
+      console.error('Error checking for updates:', error);
+      setUpdateStatus('Error checking for updates');
+      setTimeout(() => setUpdateStatus(''), 5000);
+    } finally {
+      setIsCheckingForUpdates(false);
+    }
+  };
+
   // Render functions
   const renderConnectScreen = () => (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white p-8">
@@ -1203,6 +1245,32 @@ const VideoCallApp: React.FC<VideoCallAppProps> = () => {
           {connectionStatus && (
             <div className="text-center text-sm text-slate-300 mt-4">
               {connectionStatus}
+            </div>
+          )}
+        </div>
+        
+        {/* Update section */}
+        <div className="mt-8 pt-6 border-t border-slate-700/50">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <p className="text-sm text-slate-400">Version: {appVersion}</p>
+            </div>
+            <button
+              onClick={checkForUpdates}
+              disabled={isCheckingForUpdates}
+              className="bg-slate-700 hover:bg-slate-600 disabled:bg-slate-700 disabled:cursor-not-allowed text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors flex items-center gap-2"
+            >
+              <FontAwesomeIcon 
+                icon={faCog} 
+                className={`text-sm ${isCheckingForUpdates ? 'animate-spin' : ''}`} 
+              />
+              {isCheckingForUpdates ? 'Checking...' : 'Check for Updates'}
+            </button>
+          </div>
+          
+          {updateStatus && (
+            <div className="text-center text-sm text-slate-300">
+              {updateStatus}
             </div>
           )}
         </div>

@@ -34,9 +34,46 @@ var __importStar = (this && this.__importStar) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 const electron_1 = require("electron");
+const electron_updater_1 = require("electron-updater");
 const path = __importStar(require("path"));
 const signaling_server_1 = require("./signaling-server");
 let signalingServer = null;
+// Configure auto-updater
+electron_updater_1.autoUpdater.checkForUpdatesAndNotify();
+// Auto-updater event handlers
+electron_updater_1.autoUpdater.on('checking-for-update', () => {
+    console.log('Checking for update...');
+});
+electron_updater_1.autoUpdater.on('update-available', (info) => {
+    console.log('Update available:', info);
+});
+electron_updater_1.autoUpdater.on('update-not-available', (info) => {
+    console.log('Update not available:', info);
+});
+electron_updater_1.autoUpdater.on('error', (err) => {
+    console.log('Error in auto-updater:', err);
+});
+electron_updater_1.autoUpdater.on('download-progress', (progressObj) => {
+    let log_message = "Download speed: " + progressObj.bytesPerSecond;
+    log_message = log_message + ' - Downloaded ' + progressObj.percent + '%';
+    log_message = log_message + ' (' + progressObj.transferred + "/" + progressObj.total + ')';
+    console.log(log_message);
+});
+electron_updater_1.autoUpdater.on('update-downloaded', (info) => {
+    console.log('Update downloaded:', info);
+    // Show dialog to user
+    const dialogOpts = {
+        type: 'info',
+        buttons: ['Restart', 'Later'],
+        title: 'Application Update',
+        message: 'A new version has been downloaded. Restart the application to apply the update.',
+        detail: `Version ${info.version} is now available. The application will restart to apply the update.`
+    };
+    electron_1.dialog.showMessageBox(dialogOpts).then((returnValue) => {
+        if (returnValue.response === 0)
+            electron_updater_1.autoUpdater.quitAndInstall();
+    });
+});
 const createWindow = () => {
     // Create the browser window
     const mainWindow = new electron_1.BrowserWindow({
@@ -101,10 +138,30 @@ const setupIPC = (mainWindow) => {
     electron_1.ipcMain.handle('is-signaling-server-running', () => {
         return signalingServer ? signalingServer.isServerRunning() : false;
     });
+    // Auto-updater IPC handlers
+    electron_1.ipcMain.handle('check-for-updates', async () => {
+        try {
+            const result = await electron_updater_1.autoUpdater.checkForUpdatesAndNotify();
+            return { success: true, result };
+        }
+        catch (error) {
+            console.error('Error checking for updates:', error);
+            return { success: false, error: error instanceof Error ? error.message : 'Unknown error' };
+        }
+    });
+    electron_1.ipcMain.handle('get-app-version', () => {
+        return electron_1.app.getVersion();
+    });
 };
 // This method will be called when Electron has finished initialization
 electron_1.app.whenReady().then(() => {
     createWindow();
+    // Check for updates after app is ready (only in production)
+    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'production') {
+        setTimeout(() => {
+            electron_updater_1.autoUpdater.checkForUpdatesAndNotify();
+        }, 3000); // Wait 3 seconds before checking for updates
+    }
     // DevTools shortcuts disabled - use our custom developer console instead
     // Global shortcuts removed: F12 and CmdOrCtrl+Shift+I
 });
