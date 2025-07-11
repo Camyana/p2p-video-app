@@ -1,0 +1,419 @@
+ Download the React DevTools for a better development experience: https://react.dev/link/react-devtoolsYou might need to use a local HTTP server (instead of file://): https://react.dev/link/react-devtools-faq
+ 📺 useEffect: remoteStream changed: no stream
+ Download the React DevTools for a better development experience: https://react.dev/link/react-devtoolsYou might need to use a local HTTP server (instead of file://): https://react.dev/link/react-devtools-faq
+ 📺 useEffect: remoteStream changed: no stream
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+WebSocket connection to 'ws:<URL>/socket.io/?EIO=4&transport=websocket' failed: WebSocket is closed before the connection is established.
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ❌ Connection error: 
+(anonymous) @ renderer.js:52095
+ ✅ Connected to signaling server
+ ✅ User registered successfully: b
+ Starting local video... (optional)
+ 📋 User list updated: Array(1)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c
+ 📋 Current userName: b
+ 📋 All users: Array(1)
+ 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: true
+ 📋 Filtered users: Array(0)
+ 📋 User list updated: Array(1)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c
+ 📋 Current userName: b
+ 📋 All users: Array(1)
+ 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: true
+ 📋 Filtered users: Array(0)
+ ❌ Error starting local media: 
+startLocalVideo @ renderer.js:52048
+ ⚠️ Media optional and failed - continuing as viewer only
+ 📋 User list updated: Array(2)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c
+ 📋 Current userName: b
+ 📋 All users: Array(2)
+ 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: true
+ 📋 User a (user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0) - isCurrentUser: false
+ 📋 Filtered users: Array(1)
+ 📞 Incoming call from: a
+ 📋 User list updated: Array(2)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c
+ 📋 Current userName: b
+ 📋 All users: Array(2)
+ 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: true
+ 📋 User a (user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0) - isCurrentUser: false
+ 📋 Filtered users: Array(1)
+ ✅ Accepting call from: a
+ Starting local video... (optional)
+ ❌ Error starting local media: 
+startLocalVideo @ renderer.js:52048
+ ⚠️ Media optional and failed - continuing as viewer only
+ ✅ Call accepted, room: room_1752232240312_q5kbu4vvv
+ 🔄 Creating peer connection for room: room_1752232240312_q5kbu4vvv (CALLER - will send offer)
+ 📺 CALLER: Current local stream: not available
+ ⚠️ No local stream, trying to start local video...
+ Starting local video... (optional)
+ 📋 User list updated: Array(2)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c
+ 📋 Current userName: b
+ 📋 All users: Array(2)
+ 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: true
+ 📋 User a (user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0) - isCurrentUser: false
+ 📋 Filtered users: Array(1)
+ ❌ Error starting local media: 
+startLocalVideo @ renderer.js:52048
+ ⚠️ Media optional and failed - continuing as viewer only
+ 📺 CALLER: After startLocalVideo: failed
+ 📺 CALLER: No local media - joining as viewer only
+ 📤 CALLER: Creating offer...
+ 📤 CALLER: Offer SDP includes media: Object
+ 📨 Received offer for room: room_1752232240312_q5kbu4vvv
+ 📨 Current room ID: 
+ 📨 ANSWERER: Handling offer for room: room_1752232240312_q5kbu4vvv
+ 📨 ANSWERER: Current room ID: 
+ 📨 ANSWERER: Setting mode to in-call
+ 📨 ANSWERER: Setting remote description (offer)
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
+ 🧊 Current room ID: 
+ 🧊 Candidate details: Object
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Remote description set: false
+ 🧊 Local description set: false
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 📤 CALLER: Sending offer to room: room_1752232240312_q5kbu4vvv
+ 📤 CALLER: Socket connected: true
+ 📤 CALLER: Offer details: Object
+ 📤 CALLER: Offer sent successfully
+ 📺 CALLER: Received remote stream tracks: audio
+ 📺 CALLER: Track details: Object
+ 📺 CALLER: Remote stream details: Object
+ 📺 CALLER: Setting srcObject on video element
+ 📺 CALLER: Received remote stream tracks: video
+ 📺 CALLER: Track details: Object
+ 📺 CALLER: Remote stream details: Object
+ 📺 CALLER: Setting srcObject on video element
+ 📨 ANSWERER: Creating answer
+ 📨 Received answer for room: room_1752232240312_q5kbu4vvv
+ 📨 Current room ID: 
+ 📨 CALLER: Handling answer for room: room_1752232240312_q5kbu4vvv
+ 📨 CALLER: Current room ID: 
+ 📨 CALLER: Setting remote description (answer)
+ 📨 ANSWERER: Answer SDP includes media: Object
+ ❌ Error handling answer: 
+handleAnswer @ renderer.js:52664
+ 📺 useEffect: remoteStream changed: has stream
+ 📺 useEffect: Setting remote video srcObject
+ 📺 Video started playing
+ 📤 ANSWERER: Sending answer to room: room_1752232240312_q5kbu4vvv
+VideoCallApp.tsx:668 📤 ANSWERER: Socket connected: true
+VideoCallApp.tsx:669 📤 ANSWERER: Answer details: Object
+VideoCallApp.tsx:672 📤 ANSWERER: Answer sent successfully
+VideoCallApp.tsx:495 🧊 CALLER: ICE gathering state: gathering
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:423 📺 CALLER: Attempting to play video
+VideoCallApp.tsx:423 📺 CALLER: Attempting to play video
+VideoCallApp.tsx:769 🧊 Processing queued ICE candidates: 12
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:476 🧊 CALLER: ICE connection state: checking
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:466 🔗 CALLER: Connection state: connecting
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:784 🧊 Processing queued candidate: Object
+VideoCallApp.tsx:789 ✅ Queued ICE candidate added successfully
+VideoCallApp.tsx:797 🧊 Finished processing queued ICE candidates
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
+VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
+VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
+VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
+VideoCallApp.tsx:476 🧊 CALLER: ICE connection state: disconnected
+VideoCallApp.tsx:466 🔗 CALLER: Connection state: failed
+VideoCallApp.tsx:495 🧊 CALLER: ICE gathering state: complete
+VideoCallApp.tsx:461 🧊 CALLER: ICE gathering completed (null candidate)

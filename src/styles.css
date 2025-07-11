@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Video Container Styles */
+.video-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-container video {
+  transition: all 0.3s ease;
+}
+
+.video-container:fullscreen {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container:fullscreen video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+  border-radius: 0;
+  border: none;
+}
+
+/* Unified Control Styles */
+.unified-control {
+  border: 1px solid rgb(51 65 85 / 0.5);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: rgb(30 41 59 / 0.3);
+}
+
+.unified-control button {
+  transition: all 0.2s ease;
+}
+
+.unified-control button:hover {
+  background: rgb(51 65 85 / 0.8);
+}
+
+.unified-control .divider {
+  width: 1px;
+  height: 2rem;
+  background: rgb(51 65 85);
+}
+
+/* Custom Range Slider Styles */
+input[type="range"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 8px;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3b82f6;
+  border: 2px solid #1e40af;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  background: #2563eb;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3b82f6;
+  border: 2px solid #1e40af;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  transform: scale(1.1);
+  background: #2563eb;
+}
+
+/* Device dropdown scrollbar */
+.device-dropdown {
+  scrollbar-width: thin;
+  scrollbar-color: #4B5563 #1F2937;
+}
+
+.device-dropdown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.device-dropdown::-webkit-scrollbar-track {
+  background: #1F2937;
+  border-radius: 3px;
+}
+
+.device-dropdown::-webkit-scrollbar-thumb {
+  background: #4B5563;
+  border-radius: 3px;
+}
+
+.device-dropdown::-webkit-scrollbar-thumb:hover {
+  background: #6B7280;
+}
+
+/* Smooth transitions for controls */
+.control-button {
+  transition: all 0.2s ease-in-out;
+}
+
+.control-button:hover {
+  transform: translateY(-1px);
+}
+
+/* Fullscreen button animation */
+.fullscreen-btn {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.fullscreen-btn:hover {
+  transform: scale(1.1);
+  backdrop-filter: blur(6px);
+}
+
+/* Video aspect ratio enforcement */
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+/* Loading animation for device switches */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.loading-pulse {
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Responsive video grid */
+@media (max-width: 768px) {
+  .video-grid {
+    flex-direction: column;
+  }
+  
+  .video-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video-container {
+    max-height: 400px;
+  }
+}
