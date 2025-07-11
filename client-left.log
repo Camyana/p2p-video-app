@@ -1,329 +1,1056 @@
-react-dom-client.development.js:24868 Download the React DevTools for a better development experience: https://react.dev/link/react-devtoolsYou might need to use a local HTTP server (instead of file://): https://react.dev/link/react-devtools-faq
-VideoCallApp.tsx:892 📺 useEffect: remoteStream changed: no stream
-react-dom-client.development.js:24868 Download the React DevTools for a better development experience: https://react.dev/link/react-devtoolsYou might need to use a local HTTP server (instead of file://): https://react.dev/link/react-devtools-faq
-VideoCallApp.tsx:892 📺 useEffect: remoteStream changed: no stream
-VideoCallApp.tsx:124 ✅ Connected to signaling server
-VideoCallApp.tsx:142 ✅ User registered successfully: a
-VideoCallApp.tsx:58 Starting local video... (optional)
-VideoCallApp.tsx:157 📋 User list updated: Array(2)
-VideoCallApp.tsx:158 📋 Current userId (state): 
-VideoCallApp.tsx:159 📋 Current userId (ref): user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0
-VideoCallApp.tsx:160 📋 Current userName: a
-VideoCallApp.tsx:161 📋 All users: Array(2)
-VideoCallApp.tsx:167 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: false
-VideoCallApp.tsx:167 📋 User a (user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0) - isCurrentUser: true
-VideoCallApp.tsx:170 📋 Filtered users: Array(1)
-VideoCallApp.tsx:157 📋 User list updated: Array(2)
-VideoCallApp.tsx:158 📋 Current userId (state): 
-VideoCallApp.tsx:159 📋 Current userId (ref): user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0
-VideoCallApp.tsx:160 📋 Current userName: a
-VideoCallApp.tsx:161 📋 All users: Array(2)
-VideoCallApp.tsx:167 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: false
-VideoCallApp.tsx:167 📋 User a (user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0) - isCurrentUser: true
-VideoCallApp.tsx:170 📋 Filtered users: Array(1)
-VideoCallApp.tsx:86 ✅ Local media started successfully
-VideoCallApp.tsx:887 📺 Local preview element updated
-VideoCallApp.tsx:803 📞 Starting call with: b
-VideoCallApp.tsx:178 📞 Call started with: b
-VideoCallApp.tsx:157 📋 User list updated: Array(2)
-VideoCallApp.tsx:158 📋 Current userId (state): 
-VideoCallApp.tsx:159 📋 Current userId (ref): user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0
-VideoCallApp.tsx:160 📋 Current userName: a
-VideoCallApp.tsx:161 📋 All users: Array(2)
-VideoCallApp.tsx:167 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: false
-VideoCallApp.tsx:167 📋 User a (user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0) - isCurrentUser: true
-VideoCallApp.tsx:170 📋 Filtered users: Array(1)
-VideoCallApp.tsx:185 ✅ Call accepted, room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:371 🔄 Creating peer connection for room: room_1752232240312_q5kbu4vvv (CALLER - will send offer)
-VideoCallApp.tsx:374 📺 CALLER: Current local stream: not available
-VideoCallApp.tsx:376 ⚠️ No local stream, trying to start local video...
-VideoCallApp.tsx:58 Starting local video... (optional)
-VideoCallApp.tsx:157 📋 User list updated: Array(2)
-VideoCallApp.tsx:158 📋 Current userId (state): 
-VideoCallApp.tsx:159 📋 Current userId (ref): user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0
-VideoCallApp.tsx:160 📋 Current userName: a
-VideoCallApp.tsx:161 📋 All users: Array(2)
-VideoCallApp.tsx:167 📋 User b (user_-k8vvHqOnOBT-8N1AAAB_1752232221161_8btf9c) - isCurrentUser: false
-VideoCallApp.tsx:167 📋 User a (user_YBhO52J_CQsmvYdVAAAD_1752232238832_4uz7c0) - isCurrentUser: true
-VideoCallApp.tsx:170 📋 Filtered users: Array(1)
-VideoCallApp.tsx:86 ✅ Local media started successfully
-VideoCallApp.tsx:378 📺 CALLER: After startLocalVideo: available
-VideoCallApp.tsx:384 📤 Adding local stream tracks to peer connection (CALLER)
-VideoCallApp.tsx:385 📤 Available tracks: Array(2)
-VideoCallApp.tsx:387 📤 Adding track: audio enabled: true
-VideoCallApp.tsx:387 📤 Adding track: video enabled: true
-VideoCallApp.tsx:392 📺 CALLER: Updating local stream state
-VideoCallApp.tsx:498 📤 CALLER: Creating offer...
-VideoCallApp.tsx:500 📤 CALLER: Offer SDP includes media: Object
-VideoCallApp.tsx:883 📺 Local video element updated in call
-VideoCallApp.tsx:507 📤 CALLER: Sending offer to room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:508 📤 CALLER: Socket connected: true
-VideoCallApp.tsx:509 📤 CALLER: Offer details: Object
-VideoCallApp.tsx:512 📤 CALLER: Offer sent successfully
-VideoCallApp.tsx:495 🧊 CALLER: ICE gathering state: gathering
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:436 🧊 CALLER: Sending ICE candidate
-VideoCallApp.tsx:437 🧊 CALLER: Candidate details: Object
-VideoCallApp.tsx:443 🧊 CALLER: Socket connected: true
-VideoCallApp.tsx:454 🧊 CALLER: ICE candidate sent successfully
-VideoCallApp.tsx:212 📨 Received offer for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:213 📨 Current room ID: 
-VideoCallApp.tsx:525 📨 ANSWERER: Handling offer for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:526 📨 ANSWERER: Current room ID: 
-VideoCallApp.tsx:529 📨 ANSWERER: Setting mode to in-call
-VideoCallApp.tsx:652 📨 ANSWERER: Setting remote description (offer)
-VideoCallApp.tsx:658 📨 ANSWERER: Creating answer
-VideoCallApp.tsx:660 📨 ANSWERER: Answer SDP includes media: Object
-VideoCallApp.tsx:495 🧊 CALLER: ICE gathering state: new
-VideoCallApp.tsx:667 📤 ANSWERER: Sending answer to room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:668 📤 ANSWERER: Socket connected: true
-VideoCallApp.tsx:669 📤 ANSWERER: Answer details: Object
-VideoCallApp.tsx:672 📤 ANSWERER: Answer sent successfully
-VideoCallApp.tsx:769 🧊 Processing queued ICE candidates: 0
-VideoCallApp.tsx:797 🧊 Finished processing queued ICE candidates
-VideoCallApp.tsx:217 📨 Received answer for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:218 📨 Current room ID: 
-VideoCallApp.tsx:685 📨 CALLER: Handling answer for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:686 📨 CALLER: Current room ID: 
-VideoCallApp.tsx:697 📨 CALLER: Setting remote description (answer)
-VideoCallApp.tsx:706 ❌ Error handling answer: InvalidStateError: Failed to execute 'setRemoteDescription' on 'RTCPeerConnection': Failed to set remote answer sdp: Called in wrong state: stable
-handleAnswer @ VideoCallApp.tsx:706
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:222 🧊 Received ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:223 🧊 Current room ID: 
-VideoCallApp.tsx:712 🧊 Processing ICE candidate for room: room_1752232240312_q5kbu4vvv
-VideoCallApp.tsx:713 🧊 Current room ID: 
-VideoCallApp.tsx:714 🧊 Candidate details: Object
-VideoCallApp.tsx:731 🧊 Connection state: new
-VideoCallApp.tsx:732 🧊 ICE connection state: new
-VideoCallApp.tsx:733 🧊 Remote description set: true
-VideoCallApp.tsx:734 🧊 Local description set: true
-VideoCallApp.tsx:751 🧊 Adding ICE candidate to peer connection
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
-VideoCallApp.tsx:756 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
-handleIceCandidate @ VideoCallApp.tsx:756
-VideoCallApp.tsx:757 ❌ Candidate that failed: Object
-handleIceCandidate @ VideoCallApp.tsx:757
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: have-local-offer
+ 🧊 Remote description set: false
+ 🧊 Local description set: true
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: have-local-offer
+ 🧊 Remote description set: false
+ 🧊 Local description set: true
+ 🧊 Remote description not set yet, queuing ICE candidate
+ ✅ CALLER: Remote description set successfully
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ 🧊 CALLER: ICE connection state: checking
+ ✅ ICE candidate added successfully
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🔗 CALLER: Connection state: connecting
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253335702_ih1wkrcb9
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ 🧊 Processing queued ICE candidates: 3
+ 🧊 Processing queued candidate: Object
+ ✅ Queued ICE candidate added successfully
+ 🧊 Processing queued candidate: Object
+ ✅ Queued ICE candidate added successfully
+ 🧊 Processing queued candidate: Object
+ ✅ Queued ICE candidate added successfully
+ 🧊 Finished processing queued ICE candidates
+ 🧊 Processing queued ICE candidates: 0
+ 🧊 Finished processing queued ICE candidates
+ 🧊 CALLER: ICE connection state: connected
+ 🎉 CALLER: ICE connection established successfully!
+ 📤 CALLER: Outgoing senders: Array(2)
+ 📥 CALLER: Incoming receivers: Array(2)
+ 🧊 CALLER: ICE gathering state: complete
+ 🧊 CALLER: ICE gathering completed (null candidate)
+ 🔗 CALLER: Connection state: connected
+ 📴 Call ended, room: room_1752253335702_ih1wkrcb9
+ 📴 Ending call
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ 📞 Starting call with: dickmuncher
+ 📞 Call started with: dickmuncher
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ ✅ Call accepted, room: room_1752253341051_tmtynml0p
+ 🔄 Creating peer connection for room: room_1752253341051_tmtynml0p (CALLER - will send offer)
+ 📺 CALLER: Current local stream: not available
+ ⚠️ No local stream, trying to start local video...
+ Starting local video... (optional)
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ ✅ Local media started successfully
+ 📺 CALLER: After startLocalVideo: available
+ 📤 Adding local stream tracks to peer connection (CALLER)
+ 📤 Available tracks: Array(2)
+ 📤 Adding track: audio enabled: true
+ 📤 Adding track: video enabled: true
+ 📺 CALLER: Updating local stream state
+ 📤 CALLER: Creating offer...
+ 📤 CALLER: Offer SDP includes media: Object
+ 📺 Local video element updated in call
+ 📤 CALLER: Sending offer to room: room_1752253341051_tmtynml0p
+ 📤 CALLER: Socket connected: true
+ 📤 CALLER: Offer details: Object
+ 📤 CALLER: Offer sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: ICE gathering state: gathering
+ 📨 Received offer for room: room_1752253341051_tmtynml0p
+ 📨 Current room ID: 
+ 📨 ANSWERER: Handling offer for room: room_1752253341051_tmtynml0p
+ 📨 ANSWERER: Current room ID: 
+ 📨 ANSWERER: Setting mode to in-call
+ 📨 ANSWERER: Setting remote description (offer)
+ 📨 ANSWERER: Creating answer
+ 📨 ANSWERER: Answer SDP includes media: Object
+ 🧊 CALLER: ICE gathering state: new
+ 📤 ANSWERER: Sending answer to room: room_1752253341051_tmtynml0p
+ 📤 ANSWERER: Socket connected: true
+ 📤 ANSWERER: Answer details: Object
+ 📤 ANSWERER: Answer sent successfully
+ 📨 Received answer for room: room_1752253341051_tmtynml0p
+ 📨 Current room ID: 
+ 📨 CALLER: Handling answer for room: room_1752253341051_tmtynml0p
+ 📨 CALLER: Current room ID: 
+ 📨 CALLER: Setting remote description (answer)
+ ❌ Error handling answer: 
+handleAnswer @ renderer.js:52775
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253341051_tmtynml0p
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Processing queued ICE candidates: 0
+ 🧊 Finished processing queued ICE candidates
+ 📴 Ending call
+ 📴 Call ended, room: room_1752253341051_tmtynml0p
+ 📴 Ending call
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ 📞 Starting call with: a
+ 📞 Call started with: a
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ ✅ Call accepted, room: room_1752253360975_vg1qt6xiz
+ 🔄 Creating peer connection for room: room_1752253360975_vg1qt6xiz (CALLER - will send offer)
+ 📺 CALLER: Current local stream: not available
+ ⚠️ No local stream, trying to start local video...
+ Starting local video... (optional)
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ 📨 Received offer for room: room_1752253360975_vg1qt6xiz
+ 📨 Current room ID: 
+ 📨 ANSWERER: Handling offer for room: room_1752253360975_vg1qt6xiz
+ 📨 ANSWERER: Current room ID: 
+ 📨 ANSWERER: Setting mode to in-call
+ 📨 ANSWERER: Creating peer connection synchronously
+ ✅ ANSWERER: Peer connection created synchronously
+ 📺 ANSWERER: Current local stream: not available
+ ⚠️ No local stream, trying to start local video...
+ Starting local video... (optional)
+ 📨 ANSWERER: Setting remote description (offer)
+ 📨 ANSWERER: Creating answer
+ 📨 ANSWERER: Answer SDP includes media: Object
+ 📤 ANSWERER: Sending answer to room: room_1752253360975_vg1qt6xiz
+ 📤 ANSWERER: Socket connected: true
+ 📤 ANSWERER: Answer details: Object
+ 📤 ANSWERER: Answer sent successfully
+ ✅ Local media started successfully
+ 📺 CALLER: After startLocalVideo: available
+ 📤 Adding local stream tracks to peer connection (CALLER)
+ 📤 Available tracks: Array(2)
+ 📤 Adding track: audio enabled: true
+ 📤 Adding track: video enabled: true
+ 📺 CALLER: Updating local stream state
+ 📤 CALLER: Creating offer...
+ 📤 CALLER: Offer SDP includes media: Object
+ 📺 Local video element updated in call
+ 📤 CALLER: Sending offer to room: room_1752253360975_vg1qt6xiz
+ 📤 CALLER: Socket connected: true
+ 📤 CALLER: Offer details: Object
+ 📤 CALLER: Offer sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: ICE gathering state: gathering
+ ✅ Local media started successfully
+ 📺 ANSWERER: After startLocalVideo: available
+ 📤 Adding local stream tracks to peer connection (ANSWERER)
+ 📤 Available tracks: Array(2)
+ 📤 Adding track: audio enabled: true
+ 📤 Adding track: video enabled: true
+ 📺 ANSWERER: Updating local stream state
+ 📺 Local video element updated in call
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 📨 Received answer for room: room_1752253360975_vg1qt6xiz
+ 📨 Current room ID: 
+ 📨 CALLER: Handling answer for room: room_1752253360975_vg1qt6xiz
+ 📨 CALLER: Current room ID: 
+ 📨 CALLER: Setting remote description (answer)
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: have-local-offer
+ 🧊 Remote description set: false
+ 🧊 Local description set: true
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: have-local-offer
+ 🧊 Remote description set: false
+ 🧊 Local description set: true
+ 🧊 Remote description not set yet, queuing ICE candidate
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: have-local-offer
+ 🧊 Remote description set: false
+ 🧊 Local description set: true
+ 🧊 Remote description not set yet, queuing ICE candidate
+ ✅ CALLER: Remote description set successfully
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ 🧊 CALLER: ICE connection state: checking
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🔗 CALLER: Connection state: connecting
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253360975_vg1qt6xiz
+ 🧊 Current room ID: 
+ 🧊 Connection state: connecting
+ 🧊 ICE connection state: checking
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ ✅ ICE candidate added successfully
+ 🧊 Processing queued ICE candidates: 3
+ 🧊 Processing queued candidate: Object
+ ✅ Queued ICE candidate added successfully
+ 🧊 Processing queued candidate: Object
+ ✅ Queued ICE candidate added successfully
+ 🧊 Processing queued candidate: Object
+ ✅ Queued ICE candidate added successfully
+ 🧊 Finished processing queued ICE candidates
+ 🧊 Processing queued ICE candidates: 0
+ 🧊 Finished processing queued ICE candidates
+ 🧊 CALLER: ICE gathering state: complete
+ 🧊 CALLER: ICE gathering completed (null candidate)
+ 🧊 CALLER: ICE connection state: connected
+ 🎉 CALLER: ICE connection established successfully!
+ 📤 CALLER: Outgoing senders: Array(2)
+ 📥 CALLER: Incoming receivers: Array(2)
+ 🔗 CALLER: Connection state: connected
+ 📴 Call ended, room: room_1752253360975_vg1qt6xiz
+ 📴 Ending call
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ 📞 Starting call with: dickmuncher
+ 📞 Call started with: dickmuncher
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ ✅ Call accepted, room: room_1752253377221_ewgvkzepn
+ 🔄 Creating peer connection for room: room_1752253377221_ewgvkzepn (CALLER - will send offer)
+ 📺 CALLER: Current local stream: not available
+ ⚠️ No local stream, trying to start local video...
+ Starting local video... (optional)
+ 📋 User list updated: Array(3)
+ 📋 Current userId (state): 
+ 📋 Current userId (ref): user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3
+ 📋 Current userName: Cam
+ 📋 All users: Array(3)
+ 📋 User a (user_di92CUy8CW0L5izVAAAB_1752253333472_4hqlvl) - isCurrentUser: false
+ 📋 User dickmuncher (user_EeT0nNZrbdWCLMkvAAAD_1752253333998_3718sv) - isCurrentUser: false
+ 📋 User Cam (user_2qx6cCFkFpjlCYnfAAAF_1752253334231_nwmkj3) - isCurrentUser: true
+ 📋 Filtered users: Array(2)
+ ✅ Local media started successfully
+ 📺 CALLER: After startLocalVideo: available
+ 📤 Adding local stream tracks to peer connection (CALLER)
+ 📤 Available tracks: Array(2)
+ 📤 Adding track: audio enabled: true
+ 📤 Adding track: video enabled: true
+ 📺 CALLER: Updating local stream state
+ 📤 CALLER: Creating offer...
+ 📤 CALLER: Offer SDP includes media: Object
+ 📺 Local video element updated in call
+ 📤 CALLER: Sending offer to room: room_1752253377221_ewgvkzepn
+ 📤 CALLER: Socket connected: true
+ 📤 CALLER: Offer details: Object
+ 📤 CALLER: Offer sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: ICE gathering state: gathering
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 🧊 CALLER: Sending ICE candidate
+ 🧊 CALLER: Candidate details: Object
+ 🧊 CALLER: Socket connected: true
+ 🧊 CALLER: ICE candidate sent successfully
+ 📨 Received offer for room: room_1752253377221_ewgvkzepn
+ 📨 Current room ID: 
+ 📨 ANSWERER: Handling offer for room: room_1752253377221_ewgvkzepn
+ 📨 ANSWERER: Current room ID: 
+ 📨 ANSWERER: Setting mode to in-call
+ 📨 ANSWERER: Setting remote description (offer)
+ 📨 ANSWERER: Creating answer
+ 📨 ANSWERER: Answer SDP includes media: Object
+ 🧊 CALLER: ICE gathering state: new
+ 📤 ANSWERER: Sending answer to room: room_1752253377221_ewgvkzepn
+ 📤 ANSWERER: Socket connected: true
+ 📤 ANSWERER: Answer details: Object
+ 📤 ANSWERER: Answer sent successfully
+ 📨 Received answer for room: room_1752253377221_ewgvkzepn
+ 📨 Current room ID: 
+ 📨 CALLER: Handling answer for room: room_1752253377221_ewgvkzepn
+ 📨 CALLER: Current room ID: 
+ 📨 CALLER: Setting remote description (answer)
+ ❌ Error handling answer: 
+handleAnswer @ renderer.js:52775
+ 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ ❌ Error handling ICE candidate: 
+handleIceCandidate @ renderer.js:52849
+ ❌ Candidate that failed: Object
+handleIceCandidate @ renderer.js:52850
+ ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ renderer.js:52858
+ 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+ 🧊 Remote description set: true
+ 🧊 Local description set: true
+ 🧊 Candidate details: Object
+ 🧊 Adding ICE candidate to peer connection
+ 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+ 🧊 Current room ID: 
+ 🧊 Connection state: new
+ 🧊 ICE connection state: new
+ 🧊 Signaling state: stable
+VideoCallApp.tsx:831 🧊 Remote description set: true
+VideoCallApp.tsx:832 🧊 Local description set: true
+VideoCallApp.tsx:839 🧊 Candidate details: Object
+VideoCallApp.tsx:845 🧊 Adding ICE candidate to peer connection
+VideoCallApp.tsx:857 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:857
+VideoCallApp.tsx:858 ❌ Candidate that failed: Object
+handleIceCandidate @ VideoCallApp.tsx:858
+VideoCallApp.tsx:866 ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:866
+VideoCallApp.tsx:857 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:857
+VideoCallApp.tsx:858 ❌ Candidate that failed: Object
+handleIceCandidate @ VideoCallApp.tsx:858
+VideoCallApp.tsx:866 ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:866
+VideoCallApp.tsx:254 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:255 🧊 Current room ID: 
+VideoCallApp.tsx:789 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:790 🧊 Current room ID: 
+VideoCallApp.tsx:828 🧊 Connection state: new
+VideoCallApp.tsx:829 🧊 ICE connection state: new
+VideoCallApp.tsx:830 🧊 Signaling state: stable
+VideoCallApp.tsx:831 🧊 Remote description set: true
+VideoCallApp.tsx:832 🧊 Local description set: true
+VideoCallApp.tsx:839 🧊 Candidate details: Object
+VideoCallApp.tsx:845 🧊 Adding ICE candidate to peer connection
+VideoCallApp.tsx:857 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:857
+VideoCallApp.tsx:858 ❌ Candidate that failed: Object
+handleIceCandidate @ VideoCallApp.tsx:858
+VideoCallApp.tsx:866 ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:866
+VideoCallApp.tsx:254 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:255 🧊 Current room ID: 
+VideoCallApp.tsx:789 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:790 🧊 Current room ID: 
+VideoCallApp.tsx:828 🧊 Connection state: new
+VideoCallApp.tsx:829 🧊 ICE connection state: new
+VideoCallApp.tsx:830 🧊 Signaling state: stable
+VideoCallApp.tsx:831 🧊 Remote description set: true
+VideoCallApp.tsx:832 🧊 Local description set: true
+VideoCallApp.tsx:839 🧊 Candidate details: Object
+VideoCallApp.tsx:845 🧊 Adding ICE candidate to peer connection
+VideoCallApp.tsx:857 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:857
+VideoCallApp.tsx:858 ❌ Candidate that failed: Object
+handleIceCandidate @ VideoCallApp.tsx:858
+VideoCallApp.tsx:866 ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:866
+VideoCallApp.tsx:254 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:255 🧊 Current room ID: 
+VideoCallApp.tsx:789 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:790 🧊 Current room ID: 
+VideoCallApp.tsx:828 🧊 Connection state: new
+VideoCallApp.tsx:829 🧊 ICE connection state: new
+VideoCallApp.tsx:830 🧊 Signaling state: stable
+VideoCallApp.tsx:831 🧊 Remote description set: true
+VideoCallApp.tsx:832 🧊 Local description set: true
+VideoCallApp.tsx:839 🧊 Candidate details: Object
+VideoCallApp.tsx:845 🧊 Adding ICE candidate to peer connection
+VideoCallApp.tsx:254 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:255 🧊 Current room ID: 
+VideoCallApp.tsx:789 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:790 🧊 Current room ID: 
+VideoCallApp.tsx:828 🧊 Connection state: new
+VideoCallApp.tsx:829 🧊 ICE connection state: new
+VideoCallApp.tsx:830 🧊 Signaling state: stable
+VideoCallApp.tsx:831 🧊 Remote description set: true
+VideoCallApp.tsx:832 🧊 Local description set: true
+VideoCallApp.tsx:839 🧊 Candidate details: Object
+VideoCallApp.tsx:845 🧊 Adding ICE candidate to peer connection
+VideoCallApp.tsx:857 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:857
+VideoCallApp.tsx:858 ❌ Candidate that failed: Object
+handleIceCandidate @ VideoCallApp.tsx:858
+VideoCallApp.tsx:866 ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:866
+VideoCallApp.tsx:857 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:857
+VideoCallApp.tsx:858 ❌ Candidate that failed: Object
+handleIceCandidate @ VideoCallApp.tsx:858
+VideoCallApp.tsx:866 ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:866
+VideoCallApp.tsx:254 🧊 Received ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:255 🧊 Current room ID: 
+VideoCallApp.tsx:789 🧊 Processing ICE candidate for room: room_1752253377221_ewgvkzepn
+VideoCallApp.tsx:790 🧊 Current room ID: 
+VideoCallApp.tsx:828 🧊 Connection state: new
+VideoCallApp.tsx:829 🧊 ICE connection state: new
+VideoCallApp.tsx:830 🧊 Signaling state: stable
+VideoCallApp.tsx:831 🧊 Remote description set: true
+VideoCallApp.tsx:832 🧊 Local description set: true
+VideoCallApp.tsx:839 🧊 Candidate details: Object
+VideoCallApp.tsx:845 🧊 Adding ICE candidate to peer connection
+VideoCallApp.tsx:857 ❌ Error handling ICE candidate: OperationError: Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:857
+VideoCallApp.tsx:858 ❌ Candidate that failed: Object
+handleIceCandidate @ VideoCallApp.tsx:858
+VideoCallApp.tsx:866 ❌ DOM Exception: OperationError Failed to execute 'addIceCandidate' on 'RTCPeerConnection': Error processing ICE candidate
+handleIceCandidate @ VideoCallApp.tsx:866
+VideoCallApp.tsx:889 🧊 Processing queued ICE candidates: 0
+VideoCallApp.tsx:944 🧊 Finished processing queued ICE candidates

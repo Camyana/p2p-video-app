@@ -45,6 +45,7 @@ const VideoCallApp = () => {
     const userIdRef = (0, react_1.useRef)(''); // Add ref for userId to avoid timing issues
     const socketRef = (0, react_1.useRef)(null); // Add ref for socket to avoid timing issues
     const iceCandidatesQueue = (0, react_1.useRef)([]); // Queue for ICE candidates
+    const currentRoomIdRef = (0, react_1.useRef)(''); // Add ref for currentRoomId to avoid timing issues
     // Update state
     const [appVersion, setAppVersion] = (0, react_1.useState)('');
     const [isCheckingForUpdates, setIsCheckingForUpdates] = (0, react_1.useState)(false);
@@ -209,6 +210,7 @@ const VideoCallApp = () => {
             socketInstance.on('call-started', ({ roomId, targetUser }) => {
                 console.log('📞 Call started with:', targetUser.name);
                 setCurrentRoomId(roomId);
+                currentRoomIdRef.current = roomId; // Update ref immediately
                 setSelectedUser(targetUser);
                 setMode('calling');
                 setConnectionStatus(`Calling ${targetUser.name}...`);
@@ -216,6 +218,7 @@ const VideoCallApp = () => {
             socketInstance.on('call-accepted', ({ roomId }) => {
                 console.log('✅ Call accepted, room:', roomId);
                 setCurrentRoomId(roomId);
+                currentRoomIdRef.current = roomId; // Update ref immediately
                 setMode('in-call');
                 setConnectionStatus('Connected!');
                 setIncomingCall(null);
@@ -577,12 +580,14 @@ const VideoCallApp = () => {
     const handleOffer = async (offer, roomId) => {
         try {
             console.log('📨 ANSWERER: Handling offer for room:', roomId);
-            console.log('📨 ANSWERER: Current room ID:', currentRoomId);
+            console.log('📨 ANSWERER: Current room ID (state):', currentRoomId);
+            console.log('📨 ANSWERER: Current room ID (ref):', currentRoomIdRef.current);
             // Set mode to in-call if not already
             if (mode !== 'in-call') {
                 console.log('📨 ANSWERER: Setting mode to in-call');
                 setMode('in-call');
                 setCurrentRoomId(roomId);
+                currentRoomIdRef.current = roomId; // Update ref immediately
             }
             // Create peer connection SYNCHRONOUSLY if not exists
             let peerConnection = peerConnectionRef.current;
@@ -760,15 +765,18 @@ const VideoCallApp = () => {
     const handleAnswer = async (answer, roomId) => {
         try {
             console.log('📨 CALLER: Handling answer for room:', roomId);
-            console.log('📨 CALLER: Current room ID:', currentRoomId);
+            console.log('📨 CALLER: Current room ID (state):', currentRoomId);
+            console.log('📨 CALLER: Current room ID (ref):', currentRoomIdRef.current);
             const peerConnection = peerConnectionRef.current;
             if (!peerConnection) {
                 console.error('❌ CALLER: No peer connection available');
                 return;
             }
-            // Check if we're in the right room
-            if (currentRoomId && roomId !== currentRoomId) {
+            // Check if we're in the right room using both state and ref
+            const currentRoom = currentRoomIdRef.current || currentRoomId;
+            if (currentRoom && roomId !== currentRoom) {
                 console.warn('📨 CALLER: Answer for different room, ignoring');
+                console.warn('📨 CALLER: Expected room:', currentRoom, 'Got room:', roomId);
                 return;
             }
             console.log('📨 CALLER: Setting remote description (answer)');
@@ -787,16 +795,28 @@ const VideoCallApp = () => {
     const handleIceCandidate = async (candidate, roomId) => {
         try {
             console.log('🧊 Processing ICE candidate for room:', roomId);
-            console.log('🧊 Current room ID:', currentRoomId);
+            console.log('🧊 Current room ID (state):', currentRoomId);
+            console.log('🧊 Current room ID (ref):', currentRoomIdRef.current);
             const peerConnection = peerConnectionRef.current;
             if (!peerConnection) {
                 console.error('🧊 No peer connection available for ICE candidate');
                 return;
             }
-            // Check if we're in the right room
-            if (currentRoomId && roomId !== currentRoomId) {
+            // Check if we're in the right room using both state and ref
+            const currentRoom = currentRoomIdRef.current || currentRoomId;
+            if (currentRoom && roomId !== currentRoom) {
                 console.warn('🧊 ICE candidate for different room, ignoring');
+                console.warn('🧊 Expected room:', currentRoom, 'Got room:', roomId);
                 return;
+            }
+            // If we don't have a room ID yet, we might be in the process of setting up
+            if (!currentRoom) {
+                console.log('🧊 No current room ID set, accepting ICE candidate for room:', roomId);
+                // Set the room ID if we don't have one yet
+                if (!currentRoomIdRef.current) {
+                    currentRoomIdRef.current = roomId;
+                    setCurrentRoomId(roomId);
+                }
             }
             // Validate candidate structure first
             if (!candidate || typeof candidate !== 'object') {
@@ -979,6 +999,7 @@ const VideoCallApp = () => {
         // Reset state
         setRemoteStream(null);
         setCurrentRoomId('');
+        currentRoomIdRef.current = ''; // Clear ref as well
         setSelectedUser(null);
         setMode('lobby');
         setConnectionStatus('');
