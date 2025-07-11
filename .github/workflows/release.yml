@@ -7,12 +7,8 @@ on:
 
 jobs:
   release:
-    runs-on: ${{ matrix.os }}
+    runs-on: windows-latest
     timeout-minutes: 30
-    
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
         
     steps:
     - name: Checkout code
@@ -44,5 +40,5 @@ jobs:
       uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: release-${{ matrix.os }}
+        name: release-windows
         path: release/
