@@ -1,6 +1,6 @@
 {
   "name": "p2p-video",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "P2P Video Calling App built with Electron and WebRTC",
   "main": "dist/main.js",
   "scripts": {
